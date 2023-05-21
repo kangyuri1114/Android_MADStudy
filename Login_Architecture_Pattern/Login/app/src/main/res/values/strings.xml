@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="mvc_pattern">MVC Pattern</string>
+    <string name="mvp_pattern">MVP Pattern</string>
+    <string name="username">Username</string>
+</resources>
