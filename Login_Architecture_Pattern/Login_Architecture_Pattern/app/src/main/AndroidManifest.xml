@@ -12,7 +12,13 @@
         android:theme="@style/Theme.Login_Architecture_Pattern"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".MVVMLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MVPLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MVCLoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
