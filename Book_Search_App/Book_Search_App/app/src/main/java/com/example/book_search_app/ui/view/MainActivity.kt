@@ -1,11 +1,9 @@
-package com.example.book_search_app
+package com.example.book_search_app.ui.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.book_search_app.R
 import com.example.book_search_app.databinding.ActivityMainBinding
-import com.example.book_search_app.ui.view.FavoriteFragment
-import com.example.book_search_app.ui.view.SearchFragment
-import com.example.book_search_app.ui.view.SettingsFragment
 
 class MainActivity : AppCompatActivity() {
 
