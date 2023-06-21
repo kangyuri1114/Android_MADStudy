@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.book_search_app.databinding.FragmentFavoriteBinding
 
+
 class FavoriteFragment : Fragment() {
     private var _binding: FragmentFavoriteBinding? = null
     private val binding:FragmentFavoriteBinding get() = _binding!!

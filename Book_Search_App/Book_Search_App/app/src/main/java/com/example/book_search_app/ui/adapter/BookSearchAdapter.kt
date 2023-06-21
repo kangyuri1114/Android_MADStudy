@@ -15,9 +15,17 @@ class BookSearchAdapter : ListAdapter<Book, BookSearchViewHolder> (BookDiffCallb
         )
     }
 
+    private var onItemClickListener: ((Book)->Unit)? = null
+    fun setOnItemClickListen(listener: (Book)-> Unit) {
+        onItemClickListener = listener
+    }
+
     override fun onBindViewHolder(holder: BookSearchViewHolder, position: Int) {
         val book = currentList[position]
         holder.bind(book)
+        holder.itemView.setOnClickListener {
+            onItemClickListener?.let { it(book) }
+        }
     }
 
     companion object {
