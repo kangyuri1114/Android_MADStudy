@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Book_Search_App"
-include ':app'
+include(":app")
